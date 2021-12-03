@@ -9,7 +9,6 @@ const app = express()
 
 
 app.use(morgan('common'))
-//app.use(pino)
 
 app.get(['/', '/index.html'], (req, resp) => {
 
